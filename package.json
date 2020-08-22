@@ -1,0 +1,27 @@
+{
+	"name": "constructor",
+	"version": "1.0.0",
+	"description": "pure JS constructor",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"dev": "webpack --mode development",
+		"start": "webpack-dev-server --mode development --open"
+	},
+	"keywords": [
+		"js",
+		"javascript",
+		"constructor"
+	],
+	"author": "Alex Glen <alexsmoleev1990@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"css-loader": "^4.2.1",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.3.0",
+		"style-loader": "^1.2.1",
+		"webpack": "^4.44.1",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
